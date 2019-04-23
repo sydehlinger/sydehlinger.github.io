@@ -29,12 +29,41 @@
     </div>
   </nav>
 
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Contact</h1>
+    </div>
+  </div>
+
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-md-6">
+        <img src="img/Sydney.jpg" height="15%" />
+      </div>
+      <div class="col-md-6">
         <h1>Contact</h1>
         <p>Sydney Ehlinger</p>
+        <p>515-822-2600</p>
         <a href="mailto:sydehlin@iastate.edu">sydehlin@iastate.edu</a>
+        <form action="https://getsimpleform.com/messages?form_api_token=f0c5da3a7d3bb9622a2736d71d42591b" method="post">
+          <div class="form-group">
+            <div class="form-group">
+              <input type='hidden' name='redirect_to' value='https://sydehlinger.github.io/contact.html' />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input name="name" class="form-control" placeholder="Name">
+            </div>
+            <label for="exampleInputEmail1">Email address</label>
+            <input name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea name="message" class="form-control" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" value='send'>Submit</button>
+        </form>
       </div>
     </div>
   </div>
